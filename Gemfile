@@ -55,3 +55,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ここからアプリ開発用に追加したコード--------------------------------
 gem 'devise'
+
+# nginxにrailsを接続するために追加
+gem 'unicorn','6.1.0'
+
+# S3と連携する為に追加
+gem 'mini_magick'
+gem 'aws-sdk-s3', require: false
